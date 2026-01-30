@@ -1,21 +1,21 @@
 from collections import deque
-def solution(cacheSize, cities):
+
+def solution(cacheSize,cities):
     answer = 0
-    #큐(캐시 만듦)
+    
+    #큐 -> 캐시 만들기
     cache = deque(maxlen=cacheSize)
-       
+    
+    #LRU 
+    #도시 수 만큼 도는 것
     for city in cities:
         city = city.lower()
-        
-        #캐시 안에 도시가 있다면?(Hit)
+        #city가 캐시 안에 있으면 hit
         if city in cache:
             answer += 1
-            # 기존 위치에서 지우고 맨 뒤로 다시 보내서 '최신 상태' 만들기
             cache.remove(city)
             cache.append(city)
-            # 점수 +1
-        #Miss
-        else:   
+        else:
             answer += 5
             cache.append(city)
-    return answer
+    return answer 
