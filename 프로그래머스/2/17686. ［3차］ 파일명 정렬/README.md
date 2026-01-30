@@ -1,10 +1,10 @@
 # [level 2] [3차] 파일명 정렬 - 17686 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17686?gad_source=1&gad_campaignid=22499034228&gbraid=0AAAAAC_c4nDl1DVNx4QffyucVHI_zq-vL&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopMDXam3oA1Mo0TtA4L9IrhoaoYX9iIwpKBtH1Cy36VwalGaMYPhqtkaAtmLEALw_wcB) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17686?gad_source=1&gad_campaignid=22499034228&gbraid=0AAAAAC_c4nBwJPcUzA_291TSWnN0dXBOb&gclid=Cj0KCQiAp-zLBhDkARIsABcYc6vZ9LE813U0P6p2tMzStiTea00rbApsXA6TVCoEa2I2l-BPgIuCwqwaAmL9EALw_wcB) 
 
 ### 성능 요약
 
-메모리: 9.6 MB, 시간: 3.76 ms
+메모리: 9.72 MB, 시간: 4.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 01월 29일 17:22:47
+2026년 01월 30일 16:02:25
 
 ### 문제 설명
 
